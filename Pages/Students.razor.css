@@ -1,0 +1,46 @@
+﻿
+img{
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+
+td, th {
+    width: 160px;
+    border: 2px solid rgb(120, 120, 120);
+    padding: 10px;
+    text-align: center;
+}
+
+.last--column {
+    border: none;
+}
+
+.delete--btn {
+    border: none;
+    background: red;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    transition: all .3s ease;
+}
+.delete--btn:hover {
+    transform: scale(1.1);
+}
+
+.detail--btn {
+    border: none;
+    background: rgb(16, 117, 10);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+    width: 50px;
+    height: 50px;
+    transition: all .3s ease;
+}
+
+.detail--btn:hover {
+    transform: scale(1.1);
+}
